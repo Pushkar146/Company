@@ -1,0 +1,68 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+.side{
+  margin: 0px 0px 0px 0px;
+  width: 230px;
+  height: auto;
+  float: left;
+  border: 0px solid #33CC00;
+  
+}
+.news{
+  margin: 0px 0px 0px 0px;
+  width: 900px;
+  height: auto;
+  float: left;
+  border: 0px solid #33CC00;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  padding-left: 10px;
+  margin: 0px 10px 10px 0px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+
+}
+
+
+p{
+ padding-left: 40px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+
+}
+
+a{
+   text-decoration: none;
+  color: blue;
+}
+.active, a:hover {
+  color: #269626;
+
+}
+td{
+  width: 40%;
+}
+.plist{
+  list-style: disc; 
+  padding-left: 60px;
+
+  color: grey;
+}
+blockquote{
+  font-size: 22px;
+  padding-left: 20px;
+
+  color: grey;
+}
