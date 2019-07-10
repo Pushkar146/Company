@@ -6,53 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<style>
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-@media(max-width: 500px){
-  body{
-    padding: 0px;
-  }
-}
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-@media (max-width: 500px) {
-  .news {
-    width: auto;
-  }
-}
-@media (max-width: 500px) {
-  img {
-    width: 100%;
-  }
-}
-</style>
 </head>
 
 <body>
@@ -63,13 +17,8 @@
     <div style="width: 79%; float: right;border:3px dashed grey;height: 100%" align="center"><h2 style="padding-top: 25px">Mallick Enterprises</h2></div>
   </div>
   <hr>
-  <nav class="navbar" data-offset-top="50">
-  <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </button>
-  <div class="side collapse navbar-collapse" id="myNavbar">
+  
+  <div class="side">
       <aside>
         <ul>
               <li><a href="index.html">Introduction</a></li>
@@ -80,7 +29,7 @@
             </ul>
         </aside>
     </div>
-</nav>
+
     <div class="news">
         <h3>Our Products</h3>
 <center><img src="images/ourProducts1.jpg">
@@ -91,7 +40,6 @@
 
     </div>
 
-    </div>
-  
+   </div>
 </body>
 </html>
